@@ -42,7 +42,7 @@ To configure the integration of Britive into Microsoft Entra ID, you need to add
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) as at least a [Cloud Application Administrator](~/identity/role-based-access-control/permissions-reference.md#cloud-application-administrator).
 1. Browse to **Entra ID** > **Enterprise apps** > **New application**.
 1. In the **Add from the gallery** section, type **Britive** in the search box.
-1. Select **Britive** from results panel and then add the app. Wait a few seconds while the app is added to your tenant.
+1. Select **Britive** from the results panel and then add the app. Wait a few seconds while the app is added to your tenant.
 
  [!INCLUDE [sso-wizard.md](~/identity/saas-apps/includes/sso-wizard.md)]
 
@@ -134,14 +134,14 @@ Follow these steps to enable Microsoft Entra SSO.
 
 ## Test SSO
 
-In this section, you test your Microsoft Entra single sign-on configuration with following options. 
+In this section, you test your Microsoft Entra single sign-on configuration with the following options. 
 
-* Select **Test this application**, this option redirects to Britive Sign-on URL where you can initiate the login flow. 
+* Select **Test this application**, this option redirects to the Britive Sign-on URL, where you can initiate the login flow. 
 
 * Go to Britive Sign-on URL directly and initiate the login flow from there.
 
-* You can use Microsoft My Apps. When you select the Britive tile in the My Apps, this option redirects to Britive Sign-on URL. For more information, see [Microsoft Entra My Apps](/azure/active-directory/manage-apps/end-user-experiences#azure-ad-my-apps).
+* You can use Microsoft My Apps. When you select the Britive tile in the My Apps, this option redirects to the Britive Sign-on URL. For more information, see [Microsoft Entra My Apps](/azure/active-directory/manage-apps/end-user-experiences#azure-ad-my-apps).
 
 ## Related content
 
-Once you configure Britive you can enforce session control, which protects exfiltration and infiltration of your organization’s sensitive data in real time. Session control extends from Conditional Access. [Learn how to enforce session control with Microsoft Defender for Cloud Apps](/cloud-app-security/proxy-deployment-aad).
+Once you configure Britive, you can enforce session control, which protects exfiltration and infiltration of your organization’s sensitive data in real time. Session control extends from Conditional Access. [Learn how to enforce session control with Microsoft Defender for Cloud Apps](/cloud-app-security/proxy-deployment-aad).
