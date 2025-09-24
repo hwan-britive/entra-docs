@@ -58,7 +58,7 @@ To configure and test Microsoft Entra SSO with Britive, perform the following st
     1. **Create a Microsoft Entra test user** - to test Microsoft Entra single sign-on with B.Simon.
     1. **Assign the Microsoft Entra test user** - to enable B.Simon to use Microsoft Entra single sign-on.
 1. **[Configure Britive SSO](#configure-britive-sso)** - to configure the single sign-on settings on application side.
-    1. **[Create Britive test user](#create-britive-test-user)** - to have a counterpart of B.Simon in Britive that's linked to the Microsoft Entra representation of user.
+    1. **[Create Britive test user](#create-britive-test-user)** - to have a counterpart of B.Simon in Britive, that's linked to the Microsoft Entra representation of the user.
 1. **[Test SSO](#test-sso)** - to verify whether the configuration works.
 
 <a name='configure-azure-ad-sso'></a>
@@ -111,10 +111,12 @@ Follow these steps to enable Microsoft Entra SSO.
    
    ![Screenshot of SSO Configuration Settings.](./media/britive-tutorial/configuration.png)
 
+   1. Copy **Audience/Entity ID** value and paste it into the **Identifier (Entity ID)** text box in the **Basic SAML Configuration** section.
+   1. Copy the **Initiate SSO URL** value and paste it into the **Sign on URL** text box in the **Basic SAML Configuration** section.
    1. Change the **SSO Provider** from **Generic** to **Azure**.
-   2. Copy the **Audience/Entity ID** value and paste it into the **Identifier (Entity ID)** text box in the **Basic SAML Configuration** section.
-   3. Copy **Initiate SSO URL** value and paste it into the **Sign on URL** text box in the **Basic SAML Configuration** section.
-   4. Select **Upload SAML Metadata** to upload the downloaded **metadata XML** file from the Azure portal. After uploading the metadata file the above values are auto-populated and save changes.
+   1. Copy the **Audience/Entity ID** value and paste it into the Identifier (Entity ID) text box in the Basic SAML Configuration section in the Azure portal.
+   1. Copy the **Initiate SSO URL** value and paste it into the Sign on URL text box in the Basic SAML Configuration section in the Azure portal.
+   1. Select **Upload SAML Metadata** to upload the downloaded **metadata XML** file from the Azure portal. After uploading the metadata file, the above values are auto-populated and save changes.
 
 
 ### Create Britive test user
